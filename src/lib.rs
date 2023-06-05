@@ -1,4 +1,4 @@
-use bevy::reflect::{Reflect, GetTypeRegistration};
+use bevy_reflect::{Reflect, GetTypeRegistration};
 
 #[derive(Reflect)]
 pub struct ErrorStruct {
